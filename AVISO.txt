@@ -1,0 +1,23 @@
+Nos arquivos coverage.out e coverage.html é possível observar o estado atual da cobertura dos testes!
+Para realizar os testes, basta inserir `go test` ou `go test -v` para uma saída mais verbosa.
+
+Segue conteúdo da saída obtida com `go test -v`:
+
+PS C:\Users\Inteli\Documents\inteli\Projetos\Modulo_09\Ponderadas\Ponderada-S1\go_test_starter> go test -v
+=== RUN   TestSayHello_Yuri
+--- PASS: TestSayHello_Yuri (0.00s)
+=== RUN   TestSayHello_Romualdo
+--- PASS: TestSayHello_Romualdo (0.00s)
+=== RUN   TestOddOrEven
+=== RUN   TestOddOrEven/Apenas_Positivos_ou_Nulo
+=== RUN   TestOddOrEven/Apenas_Negativos
+--- PASS: TestOddOrEven (0.00s)
+    --- PASS: TestOddOrEven/Apenas_Positivos_ou_Nulo (0.00s)
+    --- PASS: TestOddOrEven/Apenas_Negativos (0.00s)
+=== RUN   TestCheckHealth
+=== RUN   TestCheckHealth/Check_health_status
+--- PASS: TestCheckHealth (0.00s)
+    --- PASS: TestCheckHealth/Check_health_status (0.00s)
+PASS
+ok      github.com/williaminfante/go_test_starter       0.665s
+PS C:\Users\Inteli\Documents\inteli\Projetos\Modulo_09\Ponderadas\Ponderada-S1\go_test_starter> 
